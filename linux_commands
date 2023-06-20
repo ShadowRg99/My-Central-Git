@@ -1,0 +1,52 @@
+https://www.hostinger.in/tutorials/linux-commands
+
+1. sudo command
+2. pwd command
+3. cd command
+4. ls command
+5. cat command
+6. cp command
+7. mv command
+8. mkdir command
+9. rmdir command
+10. rm command
+11. touch command
+12. locate command
+13. find command
+14. grep command
+15. df command
+16. du command
+17. head command
+18. tail command
+19. diff command
+20. tar command
+21. chmod command
+22. chown command
+23. jobs command
+24. kill command
+25. ping command
+26. wget command
+27. uname command
+28. top command
+29. history command
+30. man command
+31. echo command
+32. zip, unzip commands
+33. hostname command
+34. useradd, userdel commands
+35. apt-get command
+36. nano, vi, jed commands
+37. alias, unalias commands
+38. su command
+39. htop command
+40. ps command
+
+Enter the clear command to clean the Terminal screen.
+ > Press the Tab button to autofill after entering a command with an argument.
+ > Use Ctrl + C to terminate a running command.
+ > Press Ctrl + Z to pause a working command.
+ > Use Ctrl + S to freeze your Terminal temporarily.
+ > Press Ctrl + Q to undo the Terminal freeze.
+ > Use Ctrl + A to move to the beginning of the line.
+ > Press Ctrl + E to bring you to the end of the line.
+ > When executing multiple commands in a single line, use (;) to separate them > Alternatively, use && to only allow the next command to run if the previous one is successful. 
