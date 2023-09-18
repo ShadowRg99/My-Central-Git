@@ -1,0 +1,573 @@
+-rwxr-xr-x 1 ghost ghost      34 Aug 10 22:54 hello.sh
+-rwxr-xr-x 1 ghost ghost     573 Aug 11 01:23 permission.sh
+-rwxr-xr-x 1 ghost ghost    1889 Aug 11 04:21 redirectfile.sh
+-rwxr-xr-x 1 ghost ghost     454 Aug 12 05:16 cpuexceed.sh
+-rwxr-xr-x 1 ghost ghost      49 Aug 16 02:00 multiline.sh
+-rwxr-xr-x 1 ghost ghost      20 Aug 16 02:01 redirection.sh
+-rwxr-xr-x 1 ghost ghost     497 Aug 16 03:02 lsp.sh
+-rwxr-xr-x 1 ghost ghost     628 Aug 16 04:22 webpentest.sh
+-rwxr-xr-x 1 ghost ghost     801 Aug 17 03:49 loop.sh
+-rwxr-xr-x 1 ghost ghost     305 Aug 17 04:23 script_input.sh
+-rwxr-xr-x 1 ghost ghost     362 Aug 17 05:01 script_output.sh
+-rwxr-xr-x 1 ghost ghost     317 Aug 18 01:19 array.sh
+-rw-r--r-- 1 ghost ghost 4586832 Aug 18 02:53 MESSAGE
+-rwxr-xr-x 1 ghost ghost      81 Aug 18 02:56 string.sh
+-rwxr-xr-x 1 ghost ghost     568 Aug 19 02:36 password_panel.sh
+-rwxr-xr-x 1 ghost ghost     276 Aug 19 02:42 automation.sh
+-rwxr-xr-x 1 ghost ghost     361 Aug 22 01:36 stringop.sh
+-rwxr-xr-x 1 ghost ghost     156 Aug 22 01:53 hex_dec.sh
+-rwxr-xr-x 1 ghost ghost     116 Aug 22 02:05 declare.sh
+-rwxr-xr-x 1 ghost ghost     437 Aug 23 04:20 mysystem.sh
+-rwxr-xr-x 1 ghost ghost     320 Aug 23 05:08 sound.sh
+-rwxr-xr-x 1 ghost ghost      91 Aug 30 00:17 funs.sh
+-rwxr-xr-x 1 ghost ghost     220 Aug 30 00:29 function.sh
+-rwxr-xr-x 1 ghost ghost     190 Aug 30 04:30 directory.sh
+-rwxr-xr-x 1 ghost ghost     135 Aug 31 02:41 file_srch.sh
+-rwxr-xr-x 1 ghost ghost      73 Sep  1 01:00 string2.sh
+-rwxr-xr-x 1 ghost ghost     470 Sep  1 01:04 systeminfo.sh
+-rwxr-xr-x 1 ghost ghost     491 Sep  1 04:31 tcp_traffic.sh
+-rwxr-xr-x 1 ghost ghost     258 Sep  6 00:34 file_exist.sh
+-rw-r--r-- 1 ghost ghost     836 Sep  6 01:06 file1.txt
+-rw-r--r-- 1 ghost ghost     224 Sep  6 01:23 file_append.sh
+-rwxr-xr-x 1 ghost ghost    1526 Sep  6 03:30 file_action.sh
+-rwxr-xr-x 1 ghost ghost     439 Sep  7 03:23 mail.sh
+-rwxr-xr-x 1 ghost ghost     272 Sep  7 03:59 curl.sh
+-rwxr-xr-x 1 ghost ghost     371 Sep  7 04:53 professional_menus.sh
+-rwxr-xr-x 1 ghost ghost     541 Sep  8 03:07 selectloop.sh
+-rwxr-xr-x 1 ghost ghost      54 Sep  8 03:16 inotify.sh
+-rw-r--r-- 1 ghost ghost    4777 Sep  8 03:18 webserver
+-rwxr-xr-x 1 ghost ghost     366 Sep  8 03:18 userinfo.sh
+-rw-r--r-- 1 ghost ghost     466 Sep 12 00:12 grep.sh
+-rw-r--r-- 1 ghost ghost       0 Sep 12 00:17 server.info
+-rwxr-xr-x 1 ghost ghost    1027 Sep 12 00:18 conditionalstmt.sh
+server.info
+Tue Sep 12 00:19:02 IST 2023
+uptime:
+ 00:19:02 up 15 min,  1 user,  load average: 0.36, 0.48, 0.37
+Currently connected:
+ 00:19:02 up 15 min,  1 user,  load average: 0.36, 0.48, 0.37
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ghost    tty7     :0               00:06   15:08  36.77s  1.22s xfce4-session
+--------------------
+Last logins:
+ghost    tty7         Tue Sep 12 00:06   still logged in    :0
+reboot   system boot  Tue Sep 12 00:03   still running      6.3.0-kali1-amd64
+ghost    tty7         Fri Sep  8 02:19 - 04:34  (02:14)     :0
+--------------------
+Disk and memory usage:
+Free/total disk: 1.9G / 1.9G
+Free/total memory: 764 / 3878 MB
+--------------------
+OOM errors since  :
+--------------------
+Utilization and most expensive processes:
+top - 00:19:03 up 15 min,  1 user,  load average: 0.49, 0.51, 0.37
+Tasks: 190 total,   1 running, 189 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,100.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    872 root      20   0  404052 138160  58340 S   6.7   3.5   0:36.80 Xorg
+      1 root      20   0   20872  12528   9456 S   0.0   0.3   0:03.74 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 kthreadd
+--------------------
+Open TCP ports:
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-12 00:19 IST
+--------------------
+Current connections:
+Total: 496
+TCP:   1 (estab 0, closed 0, orphaned 0, timewait 0)
+
+Transport Total     IP        IPv6
+RAW	  1         0         1        
+UDP	  1         1         0        
+TCP	  1         1         0        
+INET	  3         2         1        
+FRAG	  0         0         0        
+
+--------------------
+processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    00:03   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [netns]
+root           8  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/0:0H-events_highpri]
+root           9  0.4  0.0      0     0 ?        I    00:03   0:04  \_ [kworker/u256:0-events_unbound]
+root          10  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [migration/0]
+root          17  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [idle_inject/1]
+root          22  0.1  0.0      0     0 ?        S    00:03   0:00  \_ [migration/1]
+root          23  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [kworker/u256:1-flush-8:0]
+root          28  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [kdevtmpfs]
+root          29  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [inet_frag_wq]
+root          30  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [kauditd]
+root          32  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [khungtaskd]
+root          34  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [oom_reaper]
+root          35  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [writeback]
+root          36  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [kcompactd0]
+root          37  0.0  0.0      0     0 ?        SN   00:03   0:00  \_ [ksmd]
+root          38  0.2  0.0      0     0 ?        SN   00:03   0:01  \_ [khugepaged]
+root          39  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kintegrityd]
+root          40  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kblockd]
+root          41  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [blkcg_punt_bio]
+root          42  0.1  0.0      0     0 ?        I    00:03   0:01  \_ [kworker/1:1-events]
+root          43  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [tpm_dev_wq]
+root          44  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [edac-poller]
+root          45  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [devfreq_wq]
+root          46  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/1:1H-kblockd]
+root          47  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [kswapd0]
+root          50  0.0  0.0      0     0 ?        I    00:03   0:00  \_ [kworker/u256:4-writeback]
+root          55  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kthrotld]
+root          57  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/24-pciehp]
+root          58  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/25-pciehp]
+root          59  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/26-pciehp]
+root          60  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/27-pciehp]
+root          61  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/28-pciehp]
+root          62  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/29-pciehp]
+root          63  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/30-pciehp]
+root          64  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/31-pciehp]
+root          65  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/32-pciehp]
+root          66  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/33-pciehp]
+root          67  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/34-pciehp]
+root          68  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/35-pciehp]
+root          69  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/36-pciehp]
+root          70  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/37-pciehp]
+root          71  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/38-pciehp]
+root          72  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/39-pciehp]
+root          73  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/40-pciehp]
+root          74  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/41-pciehp]
+root          75  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/42-pciehp]
+root          76  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/43-pciehp]
+root          77  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/44-pciehp]
+root          78  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/45-pciehp]
+root          79  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/46-pciehp]
+root          80  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/47-pciehp]
+root          81  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/48-pciehp]
+root          82  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/49-pciehp]
+root          83  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/50-pciehp]
+root          84  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/51-pciehp]
+root          85  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/52-pciehp]
+root          86  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/53-pciehp]
+root          87  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/54-pciehp]
+root          88  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/55-pciehp]
+root          89  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [acpi_thermal_pm]
+root          90  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [xenbus_probe]
+root          91  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [mld]
+root          92  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [ipv6_addrconf]
+root          97  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kstrp]
+root         102  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [zswap-shrink]
+root         103  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/u257:0-hci0]
+root         172  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/0:1H-kblockd]
+root         175  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [ata_sff]
+root         176  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [mpt_poll_0]
+root         177  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [mpt/0]
+root         178  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [scsi_eh_0]
+root         179  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [scsi_tmf_0]
+root         180  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [cryptd]
+root         181  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [scsi_eh_1]
+root         182  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [scsi_tmf_1]
+root         188  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [scsi_eh_2]
+root         189  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [scsi_tmf_2]
+root         190  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/16-vmwgfx]
+root         191  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [ttm]
+root         291  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [jbd2/sda1-8]
+root         292  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [ext4-rsv-conver]
+root         372  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [psimon]
+root         462  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [psimon]
+root         527  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/56-vmw_vmci]
+root         528  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [irq/57-vmw_vmci]
+root         587  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [psimon]
+root         636  0.0  0.0      0     0 ?        S    00:03   0:00  \_ [psimon]
+root         645  0.0  0.0      0     0 ?        I<   00:03   0:00  \_ [kworker/u257:1-hci0]
+root        1123  0.0  0.0      0     0 ?        S    00:04   0:00  \_ [psimon]
+root        1265  0.0  0.0      0     0 ?        S    00:06   0:00  \_ [psimon]
+root        4464  0.0  0.0      0     0 ?        I    00:11   0:00  \_ [kworker/1:0-ata_sff]
+root        5218  0.1  0.0      0     0 ?        I    00:12   0:00  \_ [kworker/0:0-events]
+root        5669  0.3  0.0      0     0 ?        I    00:13   0:01  \_ [kworker/0:1-events]
+root        7337  0.0  0.0      0     0 ?        I    00:16   0:00  \_ [kworker/1:2-ata_sff]
+root        8193  0.4  0.0      0     0 ?        I    00:18   0:00  \_ [kworker/0:2-events]
+root           1  0.4  0.3  20872 12528 ?        Ss   00:03   0:03 /sbin/init splash
+root         350  0.0  0.3  49884 15580 ?        Ss   00:03   0:00 /lib/systemd/systemd-journald
+root         369  0.0  0.1 152264  5668 ?        Ssl  00:03   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         400  0.0  0.1  27776  7660 ?        Ss   00:03   0:00 /lib/systemd/systemd-udevd
+root         530  0.0  0.1   8264  6368 ?        Ss   00:03   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     532  0.0  0.1  90428  7552 ?        Ssl  00:03   0:00 /lib/systemd/systemd-timesyncd
+root         539  0.4  0.2 238184  8448 ?        Ssl  00:03   0:04 /usr/bin/vmtoolsd
+root         588  0.0  0.0   3608  2176 ?        Ss   00:03   0:00 /usr/sbin/cron -f
+message+     590  0.1  0.1  10140  5504 ?        Ss   00:03   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      596  0.1  0.2 310256 10036 ?        Ssl  00:03   0:01 /usr/lib/polkit-1/polkitd --no-debug
+root         599  0.0  0.2  17508  8448 ?        Ss   00:03   0:00 /lib/systemd/systemd-logind
+root         685  0.0  0.4 329888 19112 ?        Ssl  00:03   0:00 /usr/sbin/NetworkManager --no-daemon
+root         695  0.0  0.3 317472 11968 ?        Ssl  00:03   0:00 /usr/sbin/ModemManager
+root         840  0.0  0.1 382676  7404 ?        SLsl 00:03   0:00 /usr/sbin/lightdm
+root         872  4.0  3.4 404052 138160 tty7    Ssl+ 00:04   0:36  \_ /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1243  0.0  0.2 236352  8428 ?        Sl   00:06   0:00  \_ lightdm --session-child 15 26
+ghost       1293  0.1  0.6 338088 24712 ?        Ssl  00:06   0:01      \_ xfce4-session
+ghost       1363  0.0  0.0   7908  1780 ?        Ss   00:06   0:00          \_ /usr/bin/ssh-agent x-session-manager
+ghost       1406  1.1  2.5 949808 103260 ?       Sl   00:06   0:08          \_ xfwm4 --display :0.0 --sm-client-id 2e1fe2f89-c073-491d-88e4-2d1e5851e671
+ghost       1435  0.1  0.6 301688 26968 ?        Sl   00:06   0:00          \_ xfsettingsd --display :0.0 --sm-client-id 2893cad09-5fd0-4306-9257-bff2a39d10fc
+ghost       1445  0.4  1.1 482532 46844 ?        Sl   00:06   0:03          \_ xfce4-panel --display :0.0 --sm-client-id 283c0d1d1-7586-4a36-be32-06997398213e
+ghost       1457  0.1  1.1 398812 44804 ?        Sl   00:06   0:01          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 1
+ghost       1472  0.6  0.8 287864 32352 ?        Sl   00:06   0:05          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 167
+ghost       1474  0.0  0.6 411392 24880 ?        Sl   00:06   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 1677
+ghost       1475  0.5  0.6 347440 27724 ?        Sl   00:06   0:04          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777
+ghost       1479  0.0  1.0 467124 42996 ?        Sl   00:06   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.
+ghost       1483  0.0  1.0 536232 40864 ?        Sl   00:06   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugi
+ghost       1487  0.0  1.1 405912 46348 ?        Sl   00:06   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.
+ghost       1670  0.0  1.0 404924 43064 ?        Sl   00:06   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 1677
+ghost       1450  0.0  0.6 411680 24324 ?        Sl   00:06   0:00          \_ Thunar --sm-client-id 289dbb895-d4c7-441a-a00f-1c4ce8040974 --daemon
+ghost       1456  0.4  1.4 484332 57892 ?        Sl   00:06   0:03          \_ xfdesktop --display :0.0 --sm-client-id 27a613104-c9e4-40b2-aef3-9227491aed97
+ghost       1464  0.0  0.4 257896 17280 ?        Sl   00:06   0:00          \_ xfce4-power-manager --restart --sm-client-id 2104ae78f-9117-4747-ae86-a2607e06629d
+ghost       1477  0.0  0.2 923972 10464 ?        Sl   00:06   0:00          \_ xiccd
+ghost       1484  0.2  1.3 445656 53804 ?        Sl   00:06   0:01          \_ /usr/bin/python3 /usr/bin/blueman-applet
+ghost       1489  0.0  0.4 256884 18312 ?        Sl   00:06   0:00          \_ /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ghost       1499  0.0  1.1 564312 46092 ?        Sl   00:06   0:00          \_ nm-applet
+ghost       1561  0.0  0.5 336056 23220 ?        Sl   00:06   0:00          \_ light-locker
+root         873  0.0  0.0   2912  1920 tty1     Ss+  00:04   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+mysql        938  0.2  6.0 1349612 242272 ?      Ssl  00:04   0:02 /usr/sbin/mariadbd
+rtkit       1153  0.0  0.0  22776  3328 ?        SNsl 00:04   0:00 /usr/libexec/rtkit-daemon
+ghost       1250  0.0  0.2  19724 11392 ?        Ss   00:06   0:00 /lib/systemd/systemd --user
+ghost       1251  0.0  0.1  22052  4872 ?        S    00:06   0:00  \_ (sd-pam)
+ghost       1268  0.0  0.3 115256 13696 ?        S<sl 00:06   0:00  \_ /usr/bin/pipewire
+ghost       1269  0.0  0.1  91328  5376 ?        Ssl  00:06   0:00  \_ /usr/bin/pipewire -c filter-chain.conf
+ghost       1270  0.0  0.9 555504 35836 ?        S<sl 00:06   0:00  \_ /usr/bin/wireplumber
+ghost       1271  0.0  0.2  97824  8704 ?        S<sl 00:06   0:00  \_ /usr/bin/pipewire-pulse
+ghost       1273  0.0  0.2 311208  9600 ?        SLsl 00:06   0:00  \_ /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+ghost       1280  0.0  0.1   9796  5376 ?        Ss   00:06   0:00  \_ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ghost       1373  0.0  0.2 385044  9956 ?        Ssl  00:06   0:00  \_ /usr/libexec/at-spi-bus-launcher
+ghost       1380  0.0  0.1   9360  4992 ?        S    00:06   0:00  |   \_ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:
+ghost       1392  0.0  0.2 238296 10072 ?        Sl   00:06   0:00  \_ /usr/libexec/at-spi2-registryd --use-gnome-session
+ghost       1404  0.0  0.0  78276  3072 ?        SLs  00:06   0:00  \_ /usr/bin/gpg-agent --supervised
+ghost       1410  0.0  0.1 308704  7296 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfsd
+ghost       1742  0.0  0.2 530108 10292 ?        Sl   00:06   0:00  |   \_ /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+ghost       1416  0.0  0.2 529024  8532 ?        Sl   00:06   0:00  \_ /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ghost       1480  0.0  0.4 407200 19200 ?        Ssl  00:06   0:00  \_ /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ghost       1534  0.0  0.3 422660 14592 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfs-udisks2-volume-monitor
+ghost       1614  0.0  0.1 230212  5632 ?        Ssl  00:06   0:00  \_ /usr/libexec/dconf-service
+ghost       1638  0.0  0.1 304284  5888 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfs-mtp-volume-monitor
+ghost       1649  0.0  0.1 304288  5928 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfs-goa-volume-monitor
+ghost       1662  0.0  0.1 305240  6272 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfs-gphoto2-volume-monitor
+ghost       1693  0.0  0.1 383288  7680 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfs-afc-volume-monitor
+ghost       1756  0.0  0.1 230784  6016 ?        Ssl  00:06   0:00  \_ /usr/libexec/gvfsd-metadata
+ghost       1916  0.0  0.2  48888  8064 ?        Ss   00:06   0:00  \_ /usr/libexec/bluetooth/obexd
+ghost       4747  0.0  0.1 304052  5632 ?        Sl   00:11   0:00  \_ /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+root        1439  0.0  0.2 304576  8176 ?        Ssl  00:06   0:00 /usr/libexec/upowerd
+ghost       1501  0.0  0.0  14656  1984 ?        Ssl  00:06   0:00 xcape -e Super_L Control_L Escape
+ghost       1522  0.4  1.0 359180 40820 ?        Sl   00:06   0:03 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+colord      1524  0.0  0.3 313452 14900 ?        Ssl  00:06   0:00 /usr/libexec/colord
+root        1553  0.0  0.3 470940 15728 ?        Ssl  00:06   0:00 /usr/libexec/udisks2/udisksd
+ghost       3337  0.8  2.5 442652 102484 ?       Sl   00:09   0:04 /usr/bin/qterminal
+ghost       3348  0.3  0.1  10452  6592 pts/0    Ss   00:09   0:01  \_ /usr/bin/zsh
+ghost       8490  1.6  0.0   4072  2816 pts/0    S+   00:19   0:00      \_ /bin/bash ./conditionalstmt.sh
+ghost       8529  200  0.1   8308  4352 pts/0    R+   00:19   0:00          \_ ps auxf --width=200
+ghost       3399  0.2  2.5 442684 102528 ?       Sl   00:09   0:01 /usr/bin/qterminal
+ghost       3402  0.2  0.1  10456  6964 pts/1    Ss   00:09   0:01  \_ /usr/bin/zsh
+ghost       5561  4.3  2.1 731800 86776 pts/1    Sl+  00:13   0:15      \_ gedit grep_file.sh
+root        8473  2.5  0.2 312688 10868 ?        Ssl  00:19   0:00 /usr/lib/NetworkManager/nm-dispatcher
+--------------------
+vmstat:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 2463548  54716 497788    0    0   527    43  395    3  5  5 87  3  0
+ 1  0      0 2463548  54716 497836    0    0     0     0  256  418  2  2 96  0  0
+ 1  0      0 2463548  54716 497836    0    0     0    36  292  435  3  4 94  0  0
+ 1  0      0 2463548  54716 497836    0    0     0     0  598  774  3  4 92  1  0
+ 1  0      0 2463548  54724 497836    0    0     0    44  464  774  3  4 93  0  0
+-rwxr-xr-x 1 ghost ghost      34 Aug 10 22:54 hello.sh
+-rwxr-xr-x 1 ghost ghost     573 Aug 11 01:23 permission.sh
+-rwxr-xr-x 1 ghost ghost    1889 Aug 11 04:21 redirectfile.sh
+-rwxr-xr-x 1 ghost ghost     454 Aug 12 05:16 cpuexceed.sh
+-rwxr-xr-x 1 ghost ghost      49 Aug 16 02:00 multiline.sh
+-rwxr-xr-x 1 ghost ghost      20 Aug 16 02:01 redirection.sh
+-rwxr-xr-x 1 ghost ghost     497 Aug 16 03:02 lsp.sh
+-rwxr-xr-x 1 ghost ghost     628 Aug 16 04:22 webpentest.sh
+-rwxr-xr-x 1 ghost ghost     801 Aug 17 03:49 loop.sh
+-rwxr-xr-x 1 ghost ghost     305 Aug 17 04:23 script_input.sh
+-rwxr-xr-x 1 ghost ghost     362 Aug 17 05:01 script_output.sh
+-rwxr-xr-x 1 ghost ghost     317 Aug 18 01:19 array.sh
+-rw-r--r-- 1 ghost ghost 4586832 Aug 18 02:53 MESSAGE
+-rwxr-xr-x 1 ghost ghost      81 Aug 18 02:56 string.sh
+-rwxr-xr-x 1 ghost ghost     568 Aug 19 02:36 password_panel.sh
+-rwxr-xr-x 1 ghost ghost     276 Aug 19 02:42 automation.sh
+-rwxr-xr-x 1 ghost ghost     361 Aug 22 01:36 stringop.sh
+-rwxr-xr-x 1 ghost ghost     156 Aug 22 01:53 hex_dec.sh
+-rwxr-xr-x 1 ghost ghost     116 Aug 22 02:05 declare.sh
+-rwxr-xr-x 1 ghost ghost     437 Aug 23 04:20 mysystem.sh
+-rwxr-xr-x 1 ghost ghost     320 Aug 23 05:08 sound.sh
+-rwxr-xr-x 1 ghost ghost      91 Aug 30 00:17 funs.sh
+-rwxr-xr-x 1 ghost ghost     220 Aug 30 00:29 function.sh
+-rwxr-xr-x 1 ghost ghost     190 Aug 30 04:30 directory.sh
+-rwxr-xr-x 1 ghost ghost     135 Aug 31 02:41 file_srch.sh
+-rwxr-xr-x 1 ghost ghost      73 Sep  1 01:00 string2.sh
+-rwxr-xr-x 1 ghost ghost     470 Sep  1 01:04 systeminfo.sh
+-rwxr-xr-x 1 ghost ghost     491 Sep  1 04:31 tcp_traffic.sh
+-rwxr-xr-x 1 ghost ghost     258 Sep  6 00:34 file_exist.sh
+-rw-r--r-- 1 ghost ghost     836 Sep  6 01:06 file1.txt
+-rw-r--r-- 1 ghost ghost     224 Sep  6 01:23 file_append.sh
+-rwxr-xr-x 1 ghost ghost    1526 Sep  6 03:30 file_action.sh
+-rwxr-xr-x 1 ghost ghost     439 Sep  7 03:23 mail.sh
+-rwxr-xr-x 1 ghost ghost     272 Sep  7 03:59 curl.sh
+-rwxr-xr-x 1 ghost ghost     371 Sep  7 04:53 professional_menus.sh
+-rwxr-xr-x 1 ghost ghost     541 Sep  8 03:07 selectloop.sh
+-rwxr-xr-x 1 ghost ghost      54 Sep  8 03:16 inotify.sh
+-rw-r--r-- 1 ghost ghost    4777 Sep  8 03:18 webserver
+-rwxr-xr-x 1 ghost ghost     366 Sep  8 03:18 userinfo.sh
+-rwxr-xr-x 1 ghost ghost     466 Sep 12 00:12 grep.sh
+-rw-r--r-- 1 ghost ghost   23826 Sep 12 00:19 server.info
+-rwxr-xr-x 1 ghost ghost    1027 Sep 12 00:20 conditionalstmt.sh
+-rwxr-xr-x 1 ghost ghost     421 Sep 12 00:46 grep_file.sh
+-rw-r--r-- 1 ghost ghost     426 Sep 14 02:54 nslookup.sh
+-rw-r--r-- 1 ghost ghost     204 Sep 15 01:29 awk.sh
+server.info
+Fri Sep 15 01:30:34 IST 2023
+uptime:
+ 01:30:34 up 8 min,  1 user,  load average: 0.35, 0.58, 0.39
+Currently connected:
+ 01:30:34 up 8 min,  1 user,  load average: 0.35, 0.58, 0.39
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ghost    tty7     :0               01:23    7:59  10.91s  0.66s xfce4-session
+--------------------
+Last logins:
+ghost    tty7         Fri Sep 15 01:23   still logged in    :0
+reboot   system boot  Fri Sep 15 01:22   still running      6.3.0-kali1-amd64
+reboot   system boot  Fri Sep 15 01:19 - 01:20  (00:01)     6.3.0-kali1-amd64
+--------------------
+Disk and memory usage:
+Free/total disk: 1.9G / 1.9G
+Free/total memory: 764 / 3878 MB
+--------------------
+OOM errors since  :
+--------------------
+Utilization and most expensive processes:
+top - 01:30:35 up 8 min,  1 user,  load average: 0.35, 0.58, 0.39
+Tasks: 187 total,   1 running, 186 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.7 us, 33.3 sy,  0.0 ni, 50.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1355 ghost     20   0 1015332  99164  76556 S   6.2   2.5   0:03.51 xfwm4
+   5446 ghost     20   0    8692   4864   2816 R   6.2   0.1   0:00.03 top
+      1 root      20   0   20860  12412   9340 S   0.0   0.3   0:03.14 systemd
+--------------------
+Open TCP ports:
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-15 01:30 IST
+--------------------
+Current connections:
+Total: 487
+TCP:   1 (estab 0, closed 0, orphaned 0, timewait 0)
+
+Transport Total     IP        IPv6
+RAW	  1         0         1        
+UDP	  1         1         0        
+TCP	  1         1         0        
+INET	  3         2         1        
+FRAG	  0         0         0        
+
+--------------------
+processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    01:22   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [netns]
+root           8  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/0:0H-events_highpri]
+root           9  0.8  0.0      0     0 ?        I    01:22   0:04  \_ [kworker/u256:0-events_unbound]
+root          10  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    01:22   0:00  \_ [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [migration/0]
+root          17  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [idle_inject/1]
+root          22  0.3  0.0      0     0 ?        S    01:22   0:01  \_ [migration/1]
+root          23  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/1:0H-events_highpri]
+root          28  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [kdevtmpfs]
+root          29  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [inet_frag_wq]
+root          30  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [kauditd]
+root          31  0.3  0.0      0     0 ?        I    01:22   0:01  \_ [kworker/0:2-ata_sff]
+root          32  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [khungtaskd]
+root          33  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [writeback]
+root          35  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   01:22   0:00  \_ [ksmd]
+root          37  0.2  0.0      0     0 ?        SN   01:22   0:01  \_ [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kintegrityd]
+root          39  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kblockd]
+root          40  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [blkcg_punt_bio]
+root          42  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [tpm_dev_wq]
+root          43  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [edac-poller]
+root          44  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [devfreq_wq]
+root          45  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/1:1H-kblockd]
+root          46  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [kswapd0]
+root          47  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [kworker/u256:2-events_unbound]
+root          49  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [kworker/u256:3-flush-8:0]
+root          54  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kthrotld]
+root          56  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/24-pciehp]
+root          57  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/25-pciehp]
+root          58  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/26-pciehp]
+root          59  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/27-pciehp]
+root          60  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/28-pciehp]
+root          61  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/29-pciehp]
+root          62  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/30-pciehp]
+root          63  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/31-pciehp]
+root          64  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/32-pciehp]
+root          65  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/33-pciehp]
+root          66  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/34-pciehp]
+root          67  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/35-pciehp]
+root          68  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/36-pciehp]
+root          69  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/37-pciehp]
+root          70  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/38-pciehp]
+root          71  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/39-pciehp]
+root          72  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/40-pciehp]
+root          73  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/41-pciehp]
+root          74  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/42-pciehp]
+root          75  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/43-pciehp]
+root          76  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/44-pciehp]
+root          77  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/45-pciehp]
+root          78  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/46-pciehp]
+root          79  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/47-pciehp]
+root          80  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/48-pciehp]
+root          81  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/49-pciehp]
+root          82  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/50-pciehp]
+root          83  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/51-pciehp]
+root          84  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/52-pciehp]
+root          85  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/53-pciehp]
+root          86  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/54-pciehp]
+root          87  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/55-pciehp]
+root          88  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [xenbus_probe]
+root          90  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [mld]
+root          91  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [ipv6_addrconf]
+root          92  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/0:1H-kblockd]
+root          97  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kstrp]
+root         102  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [zswap-shrink]
+root         103  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/u257:0-hci0]
+root         173  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [mpt_poll_0]
+root         174  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [cryptd]
+root         175  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [ata_sff]
+root         177  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [mpt/0]
+root         179  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [scsi_eh_0]
+root         181  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [scsi_tmf_0]
+root         182  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [scsi_eh_1]
+root         184  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [scsi_tmf_1]
+root         216  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [kworker/1:2-mm_percpu_wq]
+root         223  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/16-vmwgfx]
+root         227  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [ttm]
+root         235  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [scsi_eh_2]
+root         236  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [scsi_tmf_2]
+root         238  0.2  0.0      0     0 ?        I    01:22   0:01  \_ [kworker/0:3-events]
+root         285  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [jbd2/sda1-8]
+root         286  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [ext4-rsv-conver]
+root         364  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [kworker/1:4-cgroup_destroy]
+root         379  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [psimon]
+root         426  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [psimon]
+root         533  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/56-vmw_vmci]
+root         534  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [irq/57-vmw_vmci]
+root         623  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [psimon]
+root         648  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [psimon]
+root         651  0.0  0.0      0     0 ?        I<   01:22   0:00  \_ [kworker/u257:2-hci0]
+root         696  0.0  0.0      0     0 ?        I    01:22   0:00  \_ [kworker/0:4-ata_sff]
+root        1040  0.0  0.0      0     0 ?        S    01:22   0:00  \_ [psimon]
+root        1214  0.0  0.0      0     0 ?        S    01:23   0:00  \_ [psimon]
+root        3923  0.0  0.0      0     0 ?        I    01:27   0:00  \_ [kworker/0:0-events]
+root           1  0.6  0.3  20860 12412 ?        Ss   01:22   0:03 /sbin/init splash
+root         349  0.2  0.3  49972 15680 ?        Ss   01:22   0:01 /lib/systemd/systemd-journald
+root         368  0.0  0.0 152264  1548 ?        Ssl  01:22   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         375  0.1  0.1  27640  7480 ?        Ss   01:22   0:00 /lib/systemd/systemd-udevd
+root         508  0.0  0.1   8264  7496 ?        Ss   01:22   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     510  0.0  0.1  90428  7680 ?        Ssl  01:22   0:00 /lib/systemd/systemd-timesyncd
+root         514  0.4  0.2 238184  8576 ?        Ssl  01:22   0:01 /usr/bin/vmtoolsd
+root         624  0.0  0.0   3608  2176 ?        Ss   01:22   0:00 /usr/sbin/cron -f
+message+     630  0.0  0.1  10544  5632 ?        Ss   01:22   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      633  0.1  0.2 383988  9840 ?        Ssl  01:22   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         636  0.0  0.2  17504  8576 ?        Ss   01:22   0:00 /lib/systemd/systemd-logind
+root         649  0.0  0.5 329928 21252 ?        Ssl  01:22   0:00 /usr/sbin/NetworkManager --no-daemon
+root         666  0.0  0.3 391204 14052 ?        Ssl  01:22   0:00 /usr/sbin/ModemManager
+root         695  0.0  0.1 382676  7376 ?        SLsl 01:22   0:00 /usr/sbin/lightdm
+root         748  2.2  3.3 398692 132492 tty7    Ssl+ 01:22   0:10  \_ /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1192  0.0  0.2 236352  8424 ?        Sl   01:23   0:00  \_ lightdm --session-child 15 26
+ghost       1238  0.1  0.6 338088 24480 ?        Ssl  01:23   0:00      \_ xfce4-session
+ghost       1312  0.0  0.0   7908  1780 ?        Ss   01:23   0:00          \_ /usr/bin/ssh-agent x-session-manager
+ghost       1355  0.8  2.4 1015332 99164 ?       Sl   01:23   0:03          \_ xfwm4 --display :0.0 --sm-client-id 2e1fe2f89-c073-491d-88e4-2d1e5851e671
+ghost       1384  0.0  0.6 301692 27060 ?        Sl   01:23   0:00          \_ xfsettingsd --display :0.0 --sm-client-id 2893cad09-5fd0-4306-9257-bff2a39d10fc
+ghost       1394  0.5  1.1 474340 46840 ?        Sl   01:23   0:02          \_ xfce4-panel --display :0.0 --sm-client-id 283c0d1d1-7586-4a36-be32-06997398213e
+ghost       1409  0.2  1.1 398824 46628 ?        Sl   01:23   0:01          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 1
+ghost       1443  0.6  0.7 287864 30384 ?        Sl   01:23   0:02          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 167
+ghost       1444  0.0  0.6 411392 25060 ?        Sl   01:23   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 1677
+ghost       1449  0.6  0.7 421172 27884 ?        Sl   01:23   0:02          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777
+ghost       1461  0.1  1.0 540860 43228 ?        Sl   01:23   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.
+ghost       1474  0.1  1.0 470696 40976 ?        Sl   01:23   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugi
+ghost       1493  0.1  1.0 471452 41788 ?        Sl   01:23   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.
+ghost       1657  0.1  1.0 404920 40796 ?        Sl   01:23   0:00          |   \_ /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 1677
+ghost       1399  0.0  0.6 411692 26080 ?        Sl   01:23   0:00          \_ Thunar --sm-client-id 289dbb895-d4c7-441a-a00f-1c4ce8040974 --daemon
+ghost       1405  0.6  1.4 484336 55908 ?        Sl   01:23   0:02          \_ xfdesktop --display :0.0 --sm-client-id 27a613104-c9e4-40b2-aef3-9227491aed97
+ghost       1413  0.0  0.4 257892 17280 ?        Sl   01:23   0:00          \_ xfce4-power-manager --restart --sm-client-id 2104ae78f-9117-4747-ae86-a2607e06629d
+ghost       1423  0.0  0.2 924104 10656 ?        Sl   01:23   0:00          \_ xiccd
+ghost       1428  0.3  1.3 445656 51868 ?        Sl   01:23   0:01          \_ /usr/bin/python3 /usr/bin/blueman-applet
+ghost       1429  0.0  0.5 256884 20360 ?        Sl   01:23   0:00          \_ /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ghost       1435  0.1  1.1 629848 46244 ?        Sl   01:23   0:00          \_ nm-applet
+ghost       1467  0.0  0.5 336056 23380 ?        Sl   01:23   0:00          \_ light-locker
+root         750  0.0  0.0   2912  1920 tty1     Ss+  01:22   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+mysql        909  0.6  5.9 1349612 236996 ?      Ssl  01:22   0:02 /usr/sbin/mariadbd
+rtkit       1101  0.0  0.0  22776  3200 ?        SNsl 01:22   0:00 /usr/libexec/rtkit-daemon
+ghost       1199  0.0  0.2  19724 11392 ?        Ss   01:23   0:00 /lib/systemd/systemd --user
+ghost       1200  0.0  0.1  22040  5008 ?        S    01:23   0:00  \_ (sd-pam)
+ghost       1216  0.0  0.3 115236 13440 ?        S<sl 01:23   0:00  \_ /usr/bin/pipewire
+ghost       1217  0.0  0.1  91328  5376 ?        Ssl  01:23   0:00  \_ /usr/bin/pipewire -c filter-chain.conf
+ghost       1218  0.0  0.8 555492 35468 ?        S<sl 01:23   0:00  \_ /usr/bin/wireplumber
+ghost       1219  0.0  0.2  97824 10836 ?        S<sl 01:23   0:00  \_ /usr/bin/pipewire-pulse
+ghost       1222  0.0  0.2 311208  9600 ?        SLsl 01:23   0:00  \_ /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+ghost       1223  0.0  0.1   9792  5320 ?        Ss   01:23   0:00  \_ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ghost       1322  0.0  0.2 385044 11740 ?        Ssl  01:23   0:00  \_ /usr/libexec/at-spi-bus-launcher
+ghost       1329  0.0  0.1   9360  4992 ?        S    01:23   0:00  |   \_ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:
+ghost       1341  0.0  0.2 238296 11908 ?        Sl   01:23   0:00  \_ /usr/libexec/at-spi2-registryd --use-gnome-session
+ghost       1353  0.0  0.0  78276  3072 ?        SLs  01:23   0:00  \_ /usr/bin/gpg-agent --supervised
+ghost       1359  0.0  0.1 308704  7040 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfsd
+ghost       1669  0.0  0.2 530108  8440 ?        Sl   01:23   0:00  |   \_ /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+ghost       1365  0.0  0.1 454260  6528 ?        Sl   01:23   0:00  \_ /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ghost       1427  0.0  0.4 407200 19200 ?        Ssl  01:23   0:00  \_ /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ghost       1506  0.0  0.3 422660 14592 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfs-udisks2-volume-monitor
+ghost       1553  0.0  0.1 230212  5760 ?        Ssl  01:23   0:00  \_ /usr/libexec/dconf-service
+ghost       1604  0.0  0.1 304284  6016 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfs-mtp-volume-monitor
+ghost       1630  0.0  0.1 304288  5760 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfs-goa-volume-monitor
+ghost       1635  0.0  0.2 305240  8400 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfs-gphoto2-volume-monitor
+ghost       1648  0.0  0.1 383288  7440 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfs-afc-volume-monitor
+ghost       1677  0.0  0.1 230784  7764 ?        Ssl  01:23   0:00  \_ /usr/libexec/gvfsd-metadata
+ghost       1858  0.0  0.2  48888  8064 ?        Ss   01:23   0:00  \_ /usr/libexec/bluetooth/obexd
+root        1388  0.0  0.1 304576  6144 ?        Ssl  01:23   0:00 /usr/libexec/upowerd
+ghost       1441  0.0  0.0  14656  3824 ?        Ssl  01:23   0:00 xcape -e Super_L Control_L Escape
+ghost       1447  0.4  0.9 359180 38656 ?        Sl   01:23   0:02 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+colord      1478  0.0  0.3 313452 12848 ?        Ssl  01:23   0:00 /usr/libexec/colord
+root        1532  0.0  0.4 470940 17636 ?        Ssl  01:23   0:00 /usr/libexec/udisks2/udisksd
+ghost       1934  0.2  2.5 443208 102632 ?       Sl   01:23   0:00 /usr/bin/qterminal
+ghost       1937  0.2  0.1  10664  6928 pts/0    Ss   01:23   0:01  \_ /usr/bin/zsh
+ghost       5421  2.2  0.0   4072  2816 pts/0    S+   01:30   0:00      \_ /bin/bash ./conditionalstmt.sh
+ghost       5460  300  0.1   8308  4352 pts/0    R+   01:30   0:00          \_ ps auxf --width=200
+ghost       1988  0.3  2.5 443180 102636 ?       Sl   01:23   0:01 /usr/bin/qterminal
+ghost       1991  0.2  0.1  10484  6832 pts/1    Ss   01:23   0:01  \_ /usr/bin/zsh
+ghost       4877  4.5  2.0 729660 82320 pts/1    Sl+  01:29   0:02      \_ gedit awk.sh
+--------------------
+vmstat:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 2  0      0 2525768  49976 470468    0    0   935    47  346    3  5  7 87  2  0
+ 1  0      0 2525516  49976 470508    0    0     0     0  208  356  2  2 97  0  0
+ 1  0      0 2525516  49976 470508    0    0     0     0  213  366  3  2 95  0  0
+ 1  0      0 2525516  49976 470508    0    0     0     0  201  367  3  3 95  0  0
+ 1  0      0 2525516  49976 470508    0    0     0     0  187  350  2  2 96  0  0

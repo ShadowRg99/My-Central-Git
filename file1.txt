@@ -1,0 +1,17 @@
+total 56
+drwxr-xr-x 2 ghost ghost 4096 Aug 17 04:54 .
+drwxr-xr-x 3 ghost ghost 4096 Aug 11 04:20 ..
+-rwxr-xr-x 1 ghost ghost  959 Aug 11 23:30 conditionalstmt.sh
+-rwxr-xr-x 1 ghost ghost  454 Aug 12 05:16 cpuexceed.sh
+-rw-r--r-- 1 ghost ghost    0 Aug 17 04:54 file1.txt
+-rwxr-xr-x 1 ghost ghost   34 Aug 10 22:54 hello.sh
+-rwxr-xr-x 1 ghost ghost  801 Aug 17 03:49 loop.sh
+-rwxr-xr-x 1 ghost ghost  497 Aug 16 03:02 lsp.sh
+-rwxr-xr-x 1 ghost ghost   49 Aug 16 02:00 multiline.sh
+-rwxr-xr-x 1 ghost ghost  573 Aug 11 01:23 permission.sh
+-rwxr-xr-x 1 ghost ghost 1889 Aug 11 04:21 redirectfile.sh
+-rw-r--r-- 1 ghost ghost   20 Aug 16 02:01 redirection.sh
+-rwxr-xr-x 1 ghost ghost  305 Aug 17 04:23 script_input.sh
+-rwxr-xr-x 1 ghost ghost  176 Aug 17 04:54 script_output.sh
+-rw-r--r-- 1 ghost ghost  628 Aug 16 04:22 webpentest.sh
+Hello
